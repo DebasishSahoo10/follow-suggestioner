@@ -1,14 +1,18 @@
 #root {
+  --primary-color: #326398;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+
 .App {
+  font-family: "Nunito", sans-serif;
   width: 70%;
   margin: auto;
-  font-family: sans-serif;
   text-align: center;
 }
 
 body {
+  background-color: #326398;
   margin: 0px 0px;
 }
 
