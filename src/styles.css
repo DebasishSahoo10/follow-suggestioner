@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 
+:root {
+  --primary-color: #326398;
+  --secondary-color: white;
+}
+
 .App {
   font-family: "Nunito", sans-serif;
   width: 70%;
@@ -8,12 +13,12 @@
 }
 
 body {
-  background-color: #326398;
+  background-color: var(--primary-color);
   margin: 0px 0px;
 }
 
 hr {
-  background-color: white;
+  background-color: var(--secondary-color);
 }
 
 button {
@@ -23,18 +28,18 @@ button {
   margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.5rem 0.5rem;
-  background-color: #326398;
-  border: 2px white solid;
-  color: white;
+  background-color: var(--primary-color);
+  border: 2px var(--secondary-color) solid;
+  color: var(--secondary-color);
 }
 
 h1 {
   margin-bottom: 0;
-  color: white;
+  color: var(--secondary-color);
 }
 .intro {
   font-size: smaller;
-  color: white;
+  color: var(--secondary-color);
 }
 
 .list-holder {
@@ -45,13 +50,13 @@ h1 {
 
 .list {
   font-size: large;
-  background-color: white;
-  color: #326398;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
   list-style: none;
   text-align: left;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   border-radius: 1rem 1rem;
-  border: 2px white solid;
+  border: 2px var(--secondary-color) solid;
 }
