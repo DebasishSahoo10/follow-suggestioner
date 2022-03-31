@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.logo {
+  max-width: 50px;
+  vertical-align: middle;
+}
+
 body {
   background-color: var(--primary-color);
   margin: 0px 0px;
@@ -40,6 +45,7 @@ button {
 h1 {
   margin-bottom: 0;
   color: var(--secondary-color);
+  vertical-align: middle;
 }
 .intro {
   font-size: smaller;

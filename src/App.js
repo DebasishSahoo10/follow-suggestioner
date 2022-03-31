@@ -1,4 +1,5 @@
 import { useState } from "react";
+import igLogo from "/public/ig-logo.svg";
 import "./styles.css";
 
 var accountsDB = {
@@ -24,11 +25,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <div>
-        <img class="hero" src="/public/ig-logo.svg"></img>
-        <h1 class="hero">Instagram Follow Suggestions</h1>
+      <div className="test">
+        <img className="hero logo" src={igLogo}></img>
+        <h1 className="hero">Instagram Follow Suggestions</h1>
       </div>
-      <p class="intro">
+      <p className="intro">
         Checkout some of my favoutite photographers. Click on a genre to start.
       </p>
       <div>
