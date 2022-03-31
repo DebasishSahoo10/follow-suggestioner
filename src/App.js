@@ -17,8 +17,10 @@ var accountsDB = {
 };
 
 export default function App() {
-  var [links, setStyle] = useState("div");
-  function clickHandler() {}
+  var [genreSelector, setGenre] = useState("");
+  function clickHandler(genre) {
+    setGenre(genre);
+  }
 
   return (
     <div className="App">
@@ -26,9 +28,13 @@ export default function App() {
       <p>
         Checkout some of my favoutite photographers. Click on a genre to start.
       </p>
-      <button onClick={() => clickHandler()}>Wedding</button>
-      <button onClick={() => clickHandler()}>Street</button>
-      <button onClick={() => clickHandler()}>Portrait</button>
+      <div>
+        {Object.keys(accountsDB).map((genre) => (
+          <button onClick={() => clickHandler(genre)}>{genre}</button>
+        ))}
+      </div>
+
+      <div></div>
     </div>
   );
 }
