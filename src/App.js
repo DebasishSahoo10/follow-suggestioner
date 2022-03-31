@@ -1,5 +1,5 @@
 import { useState } from "react";
-import igLogo from "/public/ig-logo.svg";
+import igLogo from "/src/ig-logo.svg";
 import "./styles.css";
 
 var accountsDB = {
