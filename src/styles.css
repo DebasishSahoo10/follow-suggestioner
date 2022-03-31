@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 
 :root {
-  --primary-color: #326398;
-  --secondary-color: white;
+  --primary-color: #6750a4;
+  --secondary-color: #e8def8;
+}
+
+.hero {
+  display: inline;
 }
 
 .App {
