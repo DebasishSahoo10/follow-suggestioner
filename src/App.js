@@ -17,7 +17,7 @@ var accountsDB = {
 };
 
 export default function App() {
-  var [genreSelector, setGenre] = useState("");
+  var [genreSelector, setGenre] = useState("Wedding");
   function clickHandler(genre) {
     setGenre(genre);
   }
@@ -34,7 +34,16 @@ export default function App() {
         ))}
       </div>
 
-      <div></div>
+      <div>
+        <ul>
+          {accountsDB[genreSelector].map((account) => (
+            <li>
+              <div> {account.name} </div>
+              <div> {account.rating} </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
