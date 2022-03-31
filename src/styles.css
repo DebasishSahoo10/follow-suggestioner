@@ -1,6 +1,15 @@
+#root {
+}
+
 .App {
+  width: 70%;
+  margin: auto;
   font-family: sans-serif;
   text-align: center;
+}
+
+body {
+  margin: 0px 0px;
 }
 
 button {
@@ -9,6 +18,24 @@ button {
   border-radius: 0.5rem 0.5rem;
 }
 
-.links {
-  display: none;
+h1 {
+  margin-bottom: 0;
+}
+.intro {
+  font-size: smaller;
+}
+
+.list-holder {
+  padding-inline-start: 0;
+  padding: 0.5rem 0.5rem;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem 1rem;
+  border: 2px black solid;
 }

@@ -25,7 +25,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Instagram Follow Suggestions</h1>
-      <p>
+      <p class="intro">
         Checkout some of my favoutite photographers. Click on a genre to start.
       </p>
       <div>
@@ -33,11 +33,11 @@ export default function App() {
           <button onClick={() => clickHandler(genre)}>{genre}</button>
         ))}
       </div>
-
+      <hr></hr>
       <div>
-        <ul>
+        <ul className="list-holder">
           {accountsDB[genreSelector].map((account) => (
-            <li>
+            <li className="list">
               <div> {account.name} </div>
               <div> {account.rating} </div>
             </li>
