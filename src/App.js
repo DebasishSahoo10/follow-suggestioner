@@ -48,6 +48,7 @@ export default function App() {
           ))}
         </ul>
       </div>
+      <small>©️ Debasish Sahoo, 2022 All rights reserved.</small>
     </div>
   );
 }
