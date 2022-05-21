@@ -29,6 +29,7 @@ body {
 
 hr {
   background-color: var(--secondary-color);
+  max-width: 90%;
 }
 
 button {
