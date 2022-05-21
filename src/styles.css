@@ -77,3 +77,9 @@ small {
   margin-bottom: 0.5rem;
   color: var(--secondary-color);
 }
+
+@media only screen and (max-width: 900px) {
+  .App {
+    width: 90%;
+  }
+}
