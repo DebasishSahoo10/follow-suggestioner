@@ -56,8 +56,30 @@ var accountsDB = {
     }
   ],
   Portrait: [
-    { name: "Nirav Patel", rating: "4.5/5" },
-    { name: "Alessio Albi", rating: "4/5" }
+    {
+      name: "Nirav Patel",
+      rating: "4.5/5",
+      description:
+        "Nirav Patel is a San Francisco based Fine Art Portrait and Wedding Photographer whose emotive work is inspired by quiet moments. His signature pieces involve the molding of natural and artificial light in dramatic ways to draw attention to expression and emotion."
+    },
+    {
+      name: "Alessio Albi",
+      rating: "4/5",
+      description:
+        "Photographer based in Italy, Represented by Condé Nast and Monday Artists. He loves to captures people and their stories in a still frame."
+    },
+    {
+      name: "Rohan Shrestha",
+      rating: "4/5",
+      description:
+        "Drawing on a legacy from his father Rakesh Shrestha, Rohan’s passion for photography was fuelled from his childhood. He has worked with almost all big names of Bollywood"
+    },
+    {
+      name: "Taras Taraporvala",
+      rating: "4/5",
+      description:
+        "He is a really good photographer based on Bollywood and has worked with more than hundreads of brands while shooting bollywood stars."
+    }
   ]
 };
 
