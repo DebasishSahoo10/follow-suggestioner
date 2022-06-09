@@ -30,8 +30,30 @@ var accountsDB = {
     }
   ],
   Street: [
-    { name: "Moises Levy", rating: "4.5/5" },
-    { name: "MesYeux", rating: "4/5" }
+    {
+      name: "Moises Levy",
+      rating: "4.5/5",
+      description:
+        "Award winner Fine Art and Street photographer who uses Leica & Fuji and beieves that Perspective changes everything in Life."
+    },
+    {
+      name: "MesYeux",
+      rating: "4/5",
+      description:
+        "A 23 year bio-tech student who takes photogrpahy as a way dive into her creativity. She uses a Nord smartphone to create her wonders, which she believes as another view of simple wordly things. No doubt, Her perspectives are most unique ones."
+    },
+    {
+      name: "Street Photo International",
+      rating: "4/5",
+      description:
+        "Street Photography International (SPi) are a collective of street photographers who formed with the aim to promote the best Street Photography from around the world, and to provide a platform for unrepresented photographers with talent. "
+    },
+    {
+      name: "Kurt 5",
+      rating: "4/5",
+      description:
+        "A NYC based photographer who captures wonderful colors of nature as a hobby. His hidden messages in the societal images is really worth following."
+    }
   ],
   Portrait: [
     { name: "Nirav Patel", rating: "4.5/5" },
