@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 
 :root {
-  --primary-color: #6750a4;
-  --secondary-color: #e8def8;
+  /* --primary-color: #6750a4; */
+  --primary-color: white;
+  /* --secondary-color: #e8def8; */
+  --secondary-color: #6750a4;
 }
 
 .hero {
   display: inline;
+  padding-inline: 0.2rem;
 }
 
 .App {
@@ -17,7 +20,7 @@
 }
 
 .logo {
-  max-width: 50px;
+  max-width: 40px;
   vertical-align: middle;
 }
 
